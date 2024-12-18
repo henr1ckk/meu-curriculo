@@ -1,0 +1,105 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height:100vh;
+   margin: 0;
+   background-color: white;
+   flex-direction: column;
+}
+header{
+   text-align: center;
+   padding: 10px;
+   font-size: 24px;
+   background-color: white;
+}
+main{
+   margin: 0;
+   display: block;
+   flex-direction: column;
+   padding: 20px;
+   min-height:100vh;
+   max-width: 500px;
+}
+.text{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: justify;
+   font-size: 20px;
+}
+.title{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 30px;
+}
+.images{
+   position: relative;
+   text-align: center;
+   max-width: 600px;
+}
+.fotoperfil{
+   width: 110px;
+   border-radius: 50%;
+   border: 4px solid white;
+   position: absolute;
+   bottom: -25%;
+   margin: auto;
+   left: 50%;
+   height: 110px;
+   transform: translateX(-50%);
+}
+.banner{
+   object-fit: cover;
+   width: 100%;
+   height: 200px;
+   border-radius: 15px;
+}
+p{
+   margin: 1px;
+   padding-bottom: 10px;
+   padding-top: -10px;
+}
+.status{
+   font-size: 12px;
+}
+.info{
+   margin-top: 60px;
+   text-align: center;
+}
+.info h2 {
+   font-size: 20px;
+   color: #333;
+}
+.info p {
+   font-size: 16px;
+   text-align: center;
+   color: #666;
+   margin: 5px 0 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+i {
+   font-size: 30px;
+   transition: transform 0.3s;
+   padding: 2px;
+ }
+p.email{
+   font-size: 18px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+}
+ i:hover {
+   transform: scale(1.2);
+ }
+ footer{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 12px;
+ }
+ p.avs{
+   text-align: center;
+   opacity: 50%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ a {
+   text-decoration: none;
+ }
